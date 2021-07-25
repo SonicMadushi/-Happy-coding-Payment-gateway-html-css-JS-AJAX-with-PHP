@@ -1,0 +1,169 @@
+body {
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    background: url(b.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.t {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.t,
+tr,
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.btn {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Quicksand';
+}
+
+.tr1 {
+    font-weight: bold;
+    background-color: rgb(75, 169, 212);
+    color: white;
+}
+
+.h1 {
+    font-size: 50px;
+    color: darkred;
+}
+
+.u {
+    color: rgb(143, 4, 85);
+}
+
+.h {
+    /* background-color: transparent; */
+    background-color: rgb(42, 11, 11);
+    text-align: center;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 5px rgb(18, 247, 216);
+    opacity: 0.9;
+}
+
+.tb {
+    margin-left: 35px;
+    color: white;
+}
+
+table,
+th,
+tr,
+td {
+    font-family: "Thibus29STru";
+    font-weight: bold;
+    border: 3.5px solid rgb(99, 99, 99);
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 167, 116);
+}
+
+.s {
+    font-family: "tt";
+    color: rgb(250, 207, 16);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.ui {
+    background: #000000;
+    margin-top: 290px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    width: 400px;
+    height: 690px;
+    color: #fff;
+    opacity: 0.9;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 40px;
+}
+
+.s {
+    font-family: "t";
+    color: rgb(253, 102, 178);
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+.b {
+    font-family: sans-serif;
+}
+
+.t {
+    font-family: "t";
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.ui p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.ui input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ui input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ui input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ui Button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb5342;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.ui Button[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+}
